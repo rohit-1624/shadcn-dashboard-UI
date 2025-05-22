@@ -1,45 +1,12 @@
-# shadcn-dashboard-UI
-A modern, responsive admin dashboard UI built using ShadCN, TailwindCSS, React, TanStack Table, and DnD Kit — includes drag-and-drop sorting, table pagination, filters, mobile responsiveness, and a clean drawer-based editing interface.
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-##  Features
+Currently, two official plugins are available:
 
--  **React + ShadCN UI** components
--  **Drag & Drop** table rows (via Dnd Kit)
--  **TanStack Table** with sorting, filtering & pagination
--  **Inline editable fields** (target, limit, reviewer)
--  **Searchable** list via keyword/title
--  **Mobile friendly** layout with responsive scroll/table stack
--  **Loading skeletons** for a smooth UX
--  **Tabbed view** (Outline, Past Performance, etc.)
--  **Clean file structure with modular components
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 📦 Tech Stack
-
-| Tech            | Purpose                             |
-|-----------------|-------------------------------------|
-| React           | Core framework                      |
-| Tailwind CSS    | Utility-first styling               |
-| ShadCN UI       | Accessible and elegant UI components|
-| TanStack Table  | Table logic (filter/sort/pagination)|
-| Dnd Kit         | Drag-and-drop sorting               |
-
----
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/your-username/shadcn-dashboard-UI
-cd shadcn-dashboard-UI
-npm install
-npm run dev
-```
-
-
-🤝 Feedback / Contribution
-Pull requests are welcome. For major changes, please open an issue first.
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
