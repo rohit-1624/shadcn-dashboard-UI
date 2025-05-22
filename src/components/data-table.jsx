@@ -134,7 +134,7 @@ export function DataTable() {
           Previous
         </Button>
         <span className="text-sm">
-          Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+          Page {table.getState().pagination.pageIndex + 1}  of {table.getPageCount()}
         </span>
         <Button
           variant="outline"
